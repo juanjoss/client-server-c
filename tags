@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFF_SIZE	client.h	18;"	d
+BUFF_SIZE	server.h	21;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -Wall$/;"	m
+CLIENT	Makefile	/^CLIENT = client$/;"	m
+CLIENT_OBJS	Makefile	/^CLIENT_OBJS = client.o $/;"	m
+HOST	client.py	/^HOST = "127.0.0.1"$/;"	v
+PORT	client.py	/^PORT = 8080$/;"	v
+QUEUE_H_	queue.h	2;"	d
+SERVER	Makefile	/^SERVER = server$/;"	m
+SERVER_BACKLOG	server.h	27;"	d
+SERVER_OBJS	Makefile	/^SERVER_OBJS = server.o queue.o$/;"	m
+SERVER_PORT	client.h	15;"	d
+SERVER_PORT	server.h	18;"	d
+SOCKET_ERROR	server.h	24;"	d
+SUBMIT	Makefile	/^SUBMIT = submit$/;"	m
+SUBMIT_NAME	Makefile	/^SUBMIT_NAME = client_server.zip$/;"	m
+THREAD_POOL_SIZE	server.h	30;"	d
+_CLIENT_H_	client.h	2;"	d
+_SERVER_H_	server.h	2;"	d
+bin2hex	server.c	/^char *bin2hex(const unsigned char *input, size_t len) {$/;"	f
+check	server.c	/^void check(int exp, const char *msg) {$/;"	f
+client_socket	queue.h	/^    int *client_socket;$/;"	m	struct:node
+cond_var	server.h	/^pthread_cond_t cond_var = PTHREAD_COND_INITIALIZER;$/;"	v
+data	client.py	/^    data = s.recv(1024)$/;"	v
+dequeue	queue.c	/^int* dequeue() {$/;"	f
+enqueue	queue.c	/^void enqueue(int *client_socket) {$/;"	f
+err_die	client.c	/^void err_die(const char *fmt, ...) {$/;"	f
+err_die	server.c	/^void err_die(const char *fmt, ...) {$/;"	f
+handle_connection	server.c	/^void *handle_connection(void *p_client_socket) {$/;"	f
+head	queue.c	/^node_t *head = NULL;$/;"	v
+main	client.c	/^int main(int argc, char const *argv[]) {$/;"	f
+main	server.c	/^int main(int argc, const char *argv[]) {$/;"	f
+mutex	server.h	/^pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+next	queue.h	/^    struct node *next;$/;"	m	struct:node	typeref:struct:node::node
+node	queue.h	/^struct node {$/;"	s
+node_t	queue.h	/^typedef struct node node_t;$/;"	t	typeref:struct:node
+tail	queue.c	/^node_t *tail = NULL;$/;"	v
+thread_function	server.c	/^void* thread_function(void *arg) {$/;"	f
+thread_pool	server.h	/^pthread_t thread_pool[THREAD_POOL_SIZE];$/;"	v
